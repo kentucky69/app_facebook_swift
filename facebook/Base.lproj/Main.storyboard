@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="facebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="luffy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ehG-xk-U0A">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="oh4-mx-wCh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perso.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OM8-fu-XAs">
+                                <rect key="frame" x="117.5" y="75" width="140" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="c0u-ZM-Lym"/>
+                                    <constraint firstAttribute="width" constant="140" id="cyO-Lv-MJG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KentuckyDev" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSo-tb-X9j">
+                                <rect key="frame" x="20" y="233" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="AgX-Ah-0AK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Je transforme la guerre de Wano en application Swift" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7X-fU-lC0">
+                                <rect key="frame" x="20" y="281" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="UY1-18-YvP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IlQ-Yh-Nzl">
+                                <rect key="frame" x="20" y="341" width="335" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arc-2w-H2c">
+                                        <rect key="frame" x="0.0" y="0.0" width="215" height="50"/>
+                                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <state key="normal" title="Ajoutez une story" image="plus" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10O-33-h70">
+                                        <rect key="frame" x="225" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="c3c-LE-iiu"/>
+                                            <constraint firstAttribute="height" constant="50" id="kN0-Jj-cQg"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <state key="normal" image="wrench.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="UIButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qza-RR-Qa8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxn-8J-hFX">
+                                        <rect key="frame" x="285" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="MVM-zr-QhZ"/>
+                                            <constraint firstAttribute="height" constant="50" id="foF-VF-X9Z"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <state key="normal" image="ellipsis" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qC5-80-P2x"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QSh-0s-owa">
+                                <rect key="frame" x="20" y="401" width="335" height="1"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="BUw-PP-fJG"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8SD-DR-cgN">
+                                <rect key="frame" x="20" y="412" width="335" height="152"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="I8q-Kk-AUV">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="32"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="briefcase.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Iud-34-Fq5">
+                                                <rect key="frame" x="0.0" y="1" width="32" height="30"/>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="32" id="1TJ-jZ-2iP"/>
+                                                    <constraint firstAttribute="width" constant="32" id="DSg-X8-BO5"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travaille à KentuckyDev" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbm-Ao-iAZ">
+                                                <rect key="frame" x="135" y="6" width="200" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="3K1-DY-hlz">
+                                        <rect key="frame" x="0.0" y="40" width="335" height="32"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wnC-62-L3t">
+                                                <rect key="frame" x="0.0" y="-0.5" width="32" height="31.5"/>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="32" id="Eul-45-d3A"/>
+                                                    <constraint firstAttribute="height" constant="32" id="Hdt-fQ-w5w"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Habite à Lyon, France" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPi-8E-7gM">
+                                                <rect key="frame" x="135" y="6" width="200" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="QNh-it-XZx">
+                                        <rect key="frame" x="0.0" y="80" width="335" height="32"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mappin.and.ellipse" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TsY-F6-lE7">
+                                                <rect key="frame" x="0.0" y="-0.5" width="32" height="32.5"/>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="32" id="kr0-xl-8t2"/>
+                                                    <constraint firstAttribute="width" constant="32" id="vUl-NR-yOM"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Originaire de Khon Kaen, Thailande" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nno-U6-NrF">
+                                                <rect key="frame" x="135" y="6" width="200" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="hpp-JY-Omv">
+                                        <rect key="frame" x="0.0" y="120" width="335" height="32"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8xF-pb-BMc">
+                                                <rect key="frame" x="0.0" y="0.5" width="32" height="31"/>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="32" id="h2I-Cd-TWv"/>
+                                                    <constraint firstAttribute="width" constant="32" id="kIG-AI-DoE"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Membre depuis Juillet 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzm-bc-fPe">
+                                                <rect key="frame" x="135" y="6" width="200" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OM8-fu-XAs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B8Q-Rt-rZC"/>
+                            <constraint firstItem="QSh-0s-owa" firstAttribute="top" secondItem="IlQ-Yh-Nzl" secondAttribute="bottom" constant="10" id="BTT-fy-530"/>
+                            <constraint firstItem="QSh-0s-owa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CWl-WR-cMj"/>
+                            <constraint firstItem="FSo-tb-X9j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GdD-aM-KDY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IlQ-Yh-Nzl" secondAttribute="trailing" constant="20" id="MeU-bb-8Ps"/>
+                            <constraint firstItem="ehG-xk-U0A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PkQ-oy-09d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8SD-DR-cgN" secondAttribute="trailing" constant="20" id="Ptc-8J-Itm"/>
+                            <constraint firstItem="IlQ-Yh-Nzl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="S29-wG-47I"/>
+                            <constraint firstItem="ehG-xk-U0A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UtL-k9-jAL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FSo-tb-X9j" secondAttribute="trailing" constant="20" id="XKf-XI-Yfc"/>
+                            <constraint firstItem="FSo-tb-X9j" firstAttribute="top" secondItem="OM8-fu-XAs" secondAttribute="bottom" constant="18" id="ZHl-xa-pIY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8SD-DR-cgN" secondAttribute="bottom" id="aLB-z4-FME"/>
+                            <constraint firstItem="IlQ-Yh-Nzl" firstAttribute="top" secondItem="a7X-fU-lC0" secondAttribute="bottom" constant="10" id="auj-fB-enJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QSh-0s-owa" secondAttribute="trailing" constant="20" id="cxU-ab-SHc"/>
+                            <constraint firstItem="8SD-DR-cgN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gtg-zO-o3a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ehG-xk-U0A" secondAttribute="trailing" id="ihw-AP-FvD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a7X-fU-lC0" secondAttribute="trailing" constant="20" id="kOw-pN-kUx"/>
+                            <constraint firstItem="OM8-fu-XAs" firstAttribute="top" secondItem="ehG-xk-U0A" secondAttribute="bottom" constant="-75" id="mur-bR-hU0"/>
+                            <constraint firstItem="8SD-DR-cgN" firstAttribute="top" secondItem="QSh-0s-owa" secondAttribute="bottom" constant="10" id="rNV-PO-NNo"/>
+                            <constraint firstItem="a7X-fU-lC0" firstAttribute="top" secondItem="FSo-tb-X9j" secondAttribute="bottom" constant="8" id="s9f-z6-iqH"/>
+                            <constraint firstItem="a7X-fU-lC0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sQ8-Di-6qL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="profile" destination="OM8-fu-XAs" id="PlF-x8-tB4"/>
+                        <outlet property="storyBtn" destination="arc-2w-H2c" id="HA4-fJ-kOg"/>
+                        <outlet property="textLabel" destination="a7X-fU-lC0" id="NJS-Z4-WoU"/>
+                        <outletCollection property="squareBtns" destination="10O-33-h70" collectionClass="NSMutableArray" id="iiS-IM-lfd"/>
+                        <outletCollection property="squareBtns" destination="Lxn-8J-hFX" collectionClass="NSMutableArray" id="pTr-1m-Xtu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="briefcase.fill" catalog="system" width="128" height="102"/>
+        <image name="clock.fill" catalog="system" width="128" height="121"/>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="luffy.jpg" width="1120" height="780"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+        <image name="perso.jpg" width="499" height="539"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="wrench.fill" catalog="system" width="128" height="120"/>
+    </resources>
+</document>
